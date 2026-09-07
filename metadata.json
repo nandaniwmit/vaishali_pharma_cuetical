@@ -1,0 +1,6 @@
+{
+  "name": "Vaishali Pharmaceutical",
+  "description": "Your Trusted Medical Store for Genuine Medicines & Healthcare Needs in Aurangabad, Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

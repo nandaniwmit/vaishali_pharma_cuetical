@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A8F6A" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0A8F6A" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad1)" />
+  <circle cx="256" cy="256" r="190" fill="#ffffff" opacity="0.15" />
+  
+  <!-- Pharmacy Cross & Capsule Emblem -->
+  <g transform="translate(256, 256) scale(1.15)" filter="url(#shadow)">
+    <!-- White Medical Cross -->
+    <path d="M-36 -110 C-36 -122 -26 -132 -14 -132 L14 -132 C26 -132 36 -122 36 -110 L36 -36 L110 -36 C122 -36 132 -26 132 -14 L132 14 C132 26 122 36 110 36 L36 36 L36 110 C36 122 26 132 14 132 L-14 132 C-26 132 -36 122 -36 110 L-36 36 L-110 36 C-122 36 -132 26 -132 14 L-132 -14 C-132 -26 -122 -36 -110 -36 L-36 -36 Z" fill="#ffffff" />
+    <!-- Center Letter V / Caduceus / Heartbeat Accent -->
+    <path d="M-45 -40 L0 50 L45 -40" fill="none" stroke="#0A8F6A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="0" cy="-60" r="12" fill="#0284C7" />
+  </g>
+</svg>
